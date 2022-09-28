@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World of Science</title>
+    <link rel="stylesheet" href="cssStyle.css">
+</head>
+<body>
+
+    <div class="hero-image">
+      <section class = "header">
+        <nav>
+          <div class ="nav-links" id = "navLinks">
+            <i class="fa fa-times"  oneclick="hideMenue()"></i>
+
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">About us</a></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">Contact us</a></li>
+
+            </ul>
+          </div>
+          <i class="fa fa-bars"  oneclick="showMenue()"></i>
+        </nav>
+      </section>
+      
+        <div class="hero-text">
+          <h1>Welcome to the world of Innovation </h1>
+          <p>Inventing new ideas</p>
+          <a href="https://innovationsoftheworld.com/">Learn more</a>
+        
+        </div>
+      </div>
+
+
+<!---------course---------->
+          <section class = "Course"></section>
+          <h1>Topics we Cover</h1>
+          <p>We cover concepts related to the field of computer science</p>
+
+          <div class = "row">
+            <div class = "course-col">
+              <h1>DevOps</h1>
+              <p>DevOps is all about the unification and automation of processes, and DevOps 
+              engineers are instrumental in combining code, application maintenance, and
+              application management. All of these tasks rely on understanding not only development 
+              life cycles, but DevOps culture, and its philosophy, practices, and tools.</p>
+
+            </div>
+          
+          
+
+          <div class = "course-col">
+            <h1>Automation Testing</h1>
+            <p>Automation testing is the process of testing software and other 
+              tech products to ensure it meets strict requirements. Essentially, 
+              it's a test to double-check that the equipment or software does exactly what it was designed to do. 
+              It tests for bugs, defects, and any other issues that can arise with product development.</p>
+            </div>
+            
+
+          <div class = "course-col">
+            <h1>WebDevs</h1>
+            <p>Web development is the work involved in developing a website for 
+              the Internet or an intranet. Web development can range from developing a simple single static page of
+               plain text to complex web applications, electronic businesses, and social network services</p>
+          </div>
+
+
+
+
+
+
+      <!----------JavaScript for Toggle Menue------------>
+      <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenue(){
+          navLinks.style.right = "0";
+        function hideMenue(){
+          navLinks.style.right = "-200px";
+
+        }
+        }
+      </script>
+        
+  
+      
+      
+</body>
+</html>
